@@ -1,0 +1,7 @@
+1. Browser makes a get request
+2. Server returns HTML document
+3. User enters a note and clicks save
+4. Browser makes a post request
+5. Server 201 message:note created
+6. Browser passes the response to the JS code
+7. JS parses the response and tells DOM to render new note

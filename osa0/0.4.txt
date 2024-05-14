@@ -1,0 +1,11 @@
+1. Browser makes a get request to the server
+2. Server returns HTML document and fetches data
+3. User enters an input
+4. User clicks the save button
+5. The user's input is sent to the server
+6. The browser adds the user input (note) inside the payload
+7. Server responds with HTTP status 302 and url redirect
+8. Browser sends get request to the server for the updated URL
+9. Server returns HTMl document
+10. Browser shows updated note list
+

@@ -1,0 +1,8 @@
+1. User opens the browser
+2. The URL https://studies.cs.helsinki.fi/exampleapp/spa is entered
+3. Browser makes a get request to the server
+4. Server returns the HTML document
+5. Browser makes a request of css and js documents according to the HTML document
+6. Server returns css and js documents
+7. Browser executes the JS document and according to that fetches the data
+8. Browser displays the list of notes
